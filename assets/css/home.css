@@ -1,0 +1,69 @@
+#homehero{
+    padding-top: 3rem;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #000000 0%, #1a335c 100%);
+    background-color: #000000;
+}
+
+
+.homemobileimg {
+    position: relative;
+    padding-top: 0px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 400px; */
+}
+
+@media (min-width: 400px)
+{
+    .homemobileimg {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+}
+
+.partners {
+    background-color: #eeeeee;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom:1px solid #cecece;
+}
+
+.partners p {
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+.partners .title {
+    font-size:24pt;
+    color:#999999;
+    font-family: "Roboto","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom:40px;
+    font-weight: 100;
+}
+
+
+.partnerlogo {
+    margin-bottom: 20px;
+}
+
+#journoprofiles {
+    position: relative;
+    padding-top: 0px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 400px; */
+}
+
+@media (min-width: 400px)
+{
+    #journoprofiles {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+}
