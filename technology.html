@@ -22,14 +22,15 @@
   <body>
 
     <div id="banner-sunset" class="center-align">
-            <img src="assets/images/newslinn-logo-white.png">
+            <a href="/" class="logo"><img src="assets/images/newslinn-logo-white.png"></a>
             <h1>Newslinn is Sunsetting</h1>
 
             <div class="card-panel orange accent-1"> <span class="black-text">Newslinn as a platform is no longer active and is officially in sunsetting period. <a href="sunsetting.html" class="waves-effect waves-light btn orange accent-4"><i class="material-icons right">chevron_right</i>Read more here</a></span>
             </div>
     </div>
     
-    <img src="assets/images/newslinnlogo.png" id="logo"/>
+    
+    <a href="/" class="logo"><img src="assets/images/newslinnlogo.png"></a>
 
     <div class="container">
 
@@ -48,9 +49,9 @@
                     <h2>Expert System</h2>
                     <p>We are using an artificial intelligence system at the heart of Newslinn for validating users and photos. This is using expert driven rules to provide validation and fraud detection based at the granular image level and user/photo level.</p>
                 
-                    <span class="badge blue">Python</span>
-                    <span class="badge blue">PyKE</span>
-                    <span class="badge blue">Image Data Extraction</span>
+                    <span class="badge grey lighten-1">Python</span>
+                    <span class="badge grey lighten-1">PyKE</span>
+                    <span class="badge grey lighten-1">Image Data Extraction</span>
             </div>
         </div>
 
@@ -60,11 +61,11 @@
                 <h2>Two-Factor Authentication</h2>
                 <p>Built into all workflows is two-factor mobile user authentication, this combined with our expert system forms
                 the basis of our image fraud detection system.</p>
-                <span class="badge blue">Python</span>
-                <span class="badge blue">Mobile Pin</span>
-                <span class="badge blue">SMS</span>
-                <span class="badge blue">Regional Detection</span>
-                <span class="badge blue">GPS Evaluation</span>
+                <span class="badge grey lighten-1">Python</span>
+                <span class="badge grey lighten-1">Mobile Pin</span>
+                <span class="badge grey lighten-1">SMS</span>
+                <span class="badge grey lighten-1">Regional Detection</span>
+                <span class="badge grey lighten-1">GPS Evaluation</span>
         </div>
         </div>
 
@@ -75,9 +76,9 @@
                 <p>Built in Framework7 our web app is easily accessible for people and doesn't require people to install it
                     (it's not a smartphone app, but it looks and feels like one). This helps people easily share newsworthy
                 photos with multiple journalists.</p>
-                <span class="badge blue">Framework7</span>
-                <span class="badge blue">Javascript</span>
-                <span class="badge blue">Django REST Framework</span>
+                <span class="badge grey lighten-1">Framework7</span>
+                <span class="badge grey lighten-1">Javascript</span>
+                <span class="badge grey lighten-1">Django REST Framework</span>
         </div>
         </div>
 
@@ -86,11 +87,11 @@
                 <h2>Real-time Search Engine</h2>
                 <p>Our storage engine is a mixture of cloud base image storage and real-time image indexing system. By combining
                 our real-time expert system with web sockets, we are able to provide near second processing and indexing of images. </p>
-                <span class="badge blue">MongoDB</span>
-                <span class="badge blue">Socket.io</span>
-                <span class="badge blue">SailsJs</span>
-                <span class="badge blue">Node.js</span>
-                <span class="badge blue">Amazon Cloud Storage (s3)</span>
+                <span class="badge grey lighten-1">MongoDB</span>
+                <span class="badge grey lighten-1">Socket.io</span>
+                <span class="badge grey lighten-1">SailsJs</span>
+                <span class="badge grey lighten-1">Node.js</span>
+                <span class="badge grey lighten-1">Amazon Cloud Storage (s3)</span>
         </div>
         </div>
 
@@ -99,10 +100,10 @@
                 <h2>Email Workflow Validation</h2>
                 <p>We enable users to share photos via vanilla email. This requires incorporating user authentication into
                 an email workflow as well as GPS detection when not enabled on the smartphone.</p>
-                <span class="badge blue">Python</span>
-                <span class="badge blue">Django</span>
-                <span class="badge blue">SMTP</span>
-                <span class="badge blue">Redis</span>
+                <span class="badge grey lighten-1">Python</span>
+                <span class="badge grey lighten-1">Django</span>
+                <span class="badge grey lighten-1">SMTP</span>
+                <span class="badge grey lighten-1">Redis</span>
         </div>
         </div>
 
@@ -111,10 +112,10 @@
                 <h2>Photo Feedback &amp; Analytics</h2>
                 <p>We track what happens with photos and what interactions take place within our system and combine that with
                     social media tracking. We also amalgamate journalist feedback and questionnaire data on each photo's usage.</p>
-                <span class="badge blue">Javascript</span>
-                <span class="badge blue">Django REST Framework</span>
-                <span class="badge blue">nws.li</span>
-                <span class="badge blue">MongoDB</span>
+                <span class="badge grey lighten-1">Javascript</span>
+                <span class="badge grey lighten-1">Django REST Framework</span>
+                <span class="badge grey lighten-1">nws.li</span>
+                <span class="badge grey lighten-1">MongoDB</span>
         </div>
         </div>
 
@@ -127,16 +128,30 @@
                 research in supervised photo classification forms the basis of our image fraud detection system. Part of our
                 image data extraction system is combining domain knowledge on the nuances of OS image file saving and software
                     editing patterns.</p>
-                <span class="badge blue">Python</span>
-                <span class="badge blue">EXIFRead</span>
-                <span class="badge blue">ELA</span>
-                <span class="badge blue">Histogram Analysis</span>
+                <span class="badge grey lighten-1">Python</span>
+                <span class="badge grey lighten-1">EXIFRead</span>
+                <span class="badge grey lighten-1">ELA</span>
+                <span class="badge grey lighten-1">Histogram Analysis</span>
         </div>
         </div>
 
 
 
     </div>
+
+    <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="text-grey center-align">More Information</h2>
+                    <div class="center-align">
+                            <a class="waves-effect waves-light btn-large blue" href="about.html">About</a>
+                            <a class="waves-effect waves-light btn-large blue" href="research.html">Research</a>
+                            <a class="waves-effect waves-light btn-large blue" href="technology.html">Technology</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
 
     <footer class="container container-fluid">
             <div class="row">
